@@ -1,0 +1,23 @@
+<!-- <hello name="{{ name }}"></hello> -->
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+<div>
+  <p>*ngFor working inside app component</p>
+  <div>
+    <div>
+      <ul>
+        <li class="text" *ngFor="let test of testArray">
+          {{test}}
+        </li>
+      </ul>
+      <!-- <div *ngFor="let item of testArray"></div> -->
+    </div>
+  </div>
+</div>
+
+<div> 
+ 
+<router-outlet></router-outlet>
+</div>
