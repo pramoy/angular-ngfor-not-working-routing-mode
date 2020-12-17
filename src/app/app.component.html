@@ -1,23 +1,20 @@
-<!-- <hello name="{{ name }}"></hello> -->
-<p>
-  Start editing to see some magic happen :)
-</p>
+<p>load core module for testing <a href="core">Click here </a> and check onsole for error </p>
+<pre style="color:red">[Can't bind to 'ngForOf' since it isn't a known property of 'li'.]</pre>
 
 <div>
-  <p>*ngFor working inside app component</p>
-  <div>
-    <div>
-      <ul>
-        <li class="text" *ngFor="let test of testArray">
-          {{test}}
-        </li>
-      </ul>
-      <!-- <div *ngFor="let item of testArray"></div> -->
-    </div>
-  </div>
+	<p>*ngFor working inside app component</p>
+	<div>
+		<div>
+			<ul>
+				<li class="text" *ngFor="let test of testArray">
+					{{test}}
+				</li>
+			</ul>
+		</div>
+	</div>
 </div>
 
-<div> 
- 
-<router-outlet></router-outlet>
+<div>
+	<span>bellow is router-outlet</span>
+	<router-outlet></router-outlet>
 </div>
