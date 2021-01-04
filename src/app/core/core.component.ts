@@ -9,7 +9,7 @@ import { Component } from "@angular/core";
 export class CoreComponent {
   constructor() {}
   test = "gggg";
-  testArray = ["a", ",b", "c"];
+  testArray = ["a", "b", "c"];
   // ngOnInit(): void {
   // }
 }
